@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>StiGy Studio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/logo.webp">
+</head>
+<body>
+  
+  <header>
+    <canvas id="spectrumCanvas"></canvas>
+    <img class="head-logo fade-in-logo " src="images/logo.webp" />
+    <h1>LEVEL UP YOUR SOUND</h1>
+    <p class="tagline">Professional Mixing, Mastering and Ghost Production Services Tailored to Artists Who Want to Stand Out.</p>
+    <a href="#portfolio">
+      <button class="cta-button">Listen to My Work</button>
+    </a>
+  </header>
+
+  <section id="portfolio">
+    <h3>Production Portfolio</h3>
+    <div class="player-list">
+      <div class="track">
+        <img class="img-track" src="images/tck1.webp" />
+        <p><strong>House Music</strong></p>
+        <audio controls src="musicas/track1.mp3"></audio>
+      </div>
+      <div class="track">
+        <img class="img-track" src="images/tck2.webp" />
+        <p><strong>House Music</strong></p>
+        <audio controls src="musicas/track2.mp3"></audio>
+      </div>
+      <div class="track">
+        <img class="img-track" src="images/tck3.webp" />
+        <p><strong>House Music</strong></p>
+        <audio controls src="musicas/track3.mp3"></audio>
+      </div>
+      <div class="track">
+        <img class="img-track" src="images/tck4.webp" />
+        <p><strong>lo-fi</strong></p>
+        <audio controls src="musicas/track4.mp3"></audio>
+      </div>
+      <div class="track">
+        <img class="img-track" src="images/tck5.webp" />
+        <p><strong>Trap</strong></p>
+        <audio controls src="musicas/track5.mp3"></audio>
+      </div>
+      <div class="track">
+        <img class="img-track" src="images/tck6.webp" />
+        <p><strong>Remix
+        </strong></p>
+        <audio controls src="musicas/track6.mp3"></audio>
+      </div>
+    </div>
+    <a href="#contt">
+      <button class="cta-button">Level Up Your Sound</button>
+    </a>
+  </section>
+
+  <h3>Hear from those I've worked with</h3>
+
+  <section class="depoimentos">
+    <div class="depoimento">
+      <p class="texto">"Working with Arthur was a game-changer for my track. The mix sounds so clean and powerful, and the master hits perfectly on every system. He really brought the energy out of my electronic track without compromising clarity. Can’t wait to work with him again!"</p>
+      <p class="autor">— Jake L.</p>
+      <span class="categoria">Electronic | Mix & Master</span>
+    </div>
+  
+    <div class="depoimento">
+      <p class="texto">"Arthur truly understands dynamics and emotion. He took my RnB song and gave it the polish and warmth it needed to shine. Every element sits perfectly in the mix, and the master sounds professional and rich. I’m beyond satisfied!"</p>
+      <p class="autor">— Maya R.</p>
+      <span class="categoria">R&B | Mix & Master</span>
+    </div>
+  
+    <div class="depoimento">
+      <p class="texto">"Arthur absolutely nailed the sound I was going for. The track he ghost produced felt like it came straight from a major label. It’s high-quality, club-ready, and totally unique. A true professional who understands the electronic music scene inside out."</p>
+      <p class="autor">— Dylan V.</p>
+      <span class="categoria">Electronic | Ghost Production</span>
+    </div>
+  </section>
+  
+
+  <section class="about-section">
+    <div class="about-header">
+      <h3>My Services</h3>
+    </div>
+  
+    <div class="about-content">
+      <div class="about-item center">
+        <div class="image-placeholder">
+          <img class="img-mix" src="images/mix.webp" />
+        </div>
+        <h2>Mixing</h2>
+        <p>Clarity, impact, and balance. I bring your track to life with a clean, modern mix ready for the industry.</p>
+      </div>
+  
+      <div class="about-item center">
+        <div class="image-placeholder">
+          <img class="img-mix" src="images/disc.webp" />
+        </div>
+        <h2>Mastering</h2>
+        <p>Volume, consistency, and energy. Masters that translate everywhere — from Spotify to the club.</p>
+      </div>
+  
+      <div class="about-item center">
+        <div class="image-placeholder">
+          <img class="img-mix" src="images/ghost.webp" />
+        </div>
+        <h2>Ghost Production</h2>
+        <p>Your ideas, my production. 100% original tracks tailored to your sound.</p>
+      </div>
+    </div>
+    <a href="#contt">
+      <button class="cta-button">Start Your Project</button>
+    </a>
+    
+  </section>
+
+  <section class="social-section" id="contt">
+  <section class="">
+    <h3>Start Your Project</h3>
+    <p>Send your track or idea and let’s make it sound professional.</p>
+  
+    <form id="meu-form" action="https://formspree.io/f/xdkepgkq" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <input type="text" name="link" placeholder="Track Link (SoundCloud, Drive, etc)">
+      <select name="service" required>
+        <option value="">Select a Service</option>
+        <option value="mixing">Mixing</option>
+        <option value="mastering">Mastering</option>
+        <option value="ghost">Ghost Production</option>
+      </select>
+      <textarea name="message" rows="4" placeholder="Tell me a bit about your project..."></textarea>
+      
+      <!-- Proteção anti-spam -->
+      <input type="hidden" name="_captcha" value="false">
+  
+      <button type="submit">Send Request</button>
+
+      <div class="social-links">
+        <a href="https://open.spotify.com/intl-pt/artist/541OT8YFM6J9zezRlevkqK?si=o_o74CpxTK24jJf6r3AJ9g">Spotify</a>
+        <a href="https://soundcloud.com/stigymusic?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">SoundCloud</a>
+        <a href="https://www.instagram.com/stigy.me/">Instagram</a>
+        <a href="https://www.linkedin.com/in/arthur-fonseca-76018620a">LinkedIn</a>
+      </div>
+    </form>
+  </section>
+</section>
+
+<script>
+  const form = document.getElementById('meu-form');
+  form.addEventListener('submit', async (e) => {
+    e.preventDefault();
+    const data = new FormData(form);
+    const res = await fetch(form.action, {
+      method: 'POST',
+      body: data,
+      headers: { Accept: 'application/json' },
+    });
+
+    if (res.ok) {
+      window.location.href = 'https://www.upwork.com/freelancers/~01aa6ae42638ce0e82?mp_source=share"';
+    } else {
+      alert('Error. Please try again.');
+    }
+  });
+</script>
+
+  <script>
+    const canvas = document.getElementById('spectrumCanvas');
+    const ctx = canvas.getContext('2d');
+  
+    function resizeCanvas() {
+      canvas.width = window.innerWidth;
+      canvas.height = canvas.parentElement.offsetHeight;
+    }
+  
+    resizeCanvas();
+    window.addEventListener('resize', resizeCanvas);
+  
+    let t = 0;
+  
+    function draw() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      ctx.beginPath();
+      ctx.moveTo(0, canvas.height / 2);
+  
+      for (let x = 0; x <= canvas.width; x++) {
+        const y =
+          Math.sin((x + t) * 0.01) * 20 +
+          Math.sin((x + t) * 0.015) * 15 +
+          Math.sin((x + t) * 0.03) * 10;
+        ctx.lineTo(x, canvas.height / 2 + y);
+      }
+  
+      const gradient = ctx.createLinearGradient(0, 0, canvas.width, 0);
+      gradient.addColorStop(0, 'rgba(126, 87, 194, 1)');     // esquerdo forte
+      gradient.addColorStop(0.45, 'rgba(126, 87, 194, 0.01)'); // centro quase transparente
+      gradient.addColorStop(0.55, 'rgba(126, 87, 194, 0.01)'); // centro quase transparente
+      gradient.addColorStop(1, 'rgba(126, 87, 194, 1)');     // direito forte
+
+      ctx.strokeStyle = gradient;
+      ctx.lineWidth = 2;
+      ctx.shadowBlur = 8;
+      ctx.shadowColor = '#7E57C2';
+      ctx.stroke();
+  
+      t += 2;
+      requestAnimationFrame(draw);
+    }
+  
+    draw();
+  </script>
+
+</body>
+</html>
