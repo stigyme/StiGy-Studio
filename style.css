@@ -482,6 +482,7 @@ audio {
   gap: 30px;
   grid-template-columns: 1fr;
   width: 100%;
+  margin-top: 5rem;
 }
 
 @media (min-width: 768px) {
